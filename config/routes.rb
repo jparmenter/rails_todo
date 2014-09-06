@@ -1,3 +1,3 @@
 TodoApp::Application.routes.draw do
-  get "todos/index"
+  resources :todos, only: [:index]
 end
