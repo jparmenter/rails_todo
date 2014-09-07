@@ -8,6 +8,6 @@ end
 def make_todos
   30.times do |n|
     title = "list #{n+1}"
-    TodoList.create(title: title)
+    Todo.create(title: title)
   end
 end
