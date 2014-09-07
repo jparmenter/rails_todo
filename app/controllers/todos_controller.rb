@@ -1,5 +1,5 @@
 class TodosController < ApplicationController
   def index
-    @todoLists = TodoList.all
+    @todos = TodoList.all
   end
 end
