@@ -1,0 +1,19 @@
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#sample-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <%= link_to "todo app", root_path, id: "logo", class: "navbar-brand" %>
+    </div>
+    <div id="sample-navbar-collapse-1" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home",  root_path %></li>
+        <li><%= link_to "Todos", todos_path %></li>
+      </ul>
+    </div>
+  </div>
+</nav>
